@@ -1,0 +1,38 @@
+{
+  "name": "garasylyan-gun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "fix": "expo install --fix"
+  },
+  "dependencies": {
+    "@expo-google-fonts/caveat": "*",
+    "@expo-google-fonts/comfortaa": "*",
+    "@expo-google-fonts/lora": "*",
+    "@expo-google-fonts/nunito": "*",
+    "@expo-google-fonts/pacifico": "*",
+    "@expo-google-fonts/playfair-display": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "@react-native-community/datetimepicker": "*",
+    "expo": "~58.0.0",
+    "expo-audio": "*",
+    "expo-contacts": "*",
+    "expo-document-picker": "*",
+    "expo-file-system": "*",
+    "expo-font": "*",
+    "expo-image-picker": "*",
+    "expo-location": "*",
+    "expo-notifications": "*",
+    "expo-splash-screen": "*",
+    "expo-status-bar": "*",
+    "expo-video": "*",
+    "expo-video-thumbnails": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-safe-area-context": "*"
+  }
+}

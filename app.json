@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Garaşylýan Gün",
+    "slug": "garasylyan-gun",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "garasylyangun",
+    "userInterfaceStyle": "automatic",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#FFF8E7" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gulowresul.garasylyangun",
+      "infoPlist": {
+        "NSContactsUsageDescription": "Çakylyk sanawyny düzmek we jaň/SMS üçin kontaktlaryňyz okalýar. Maglumat diňe telefonyňyzda galýar.",
+        "NSPhotoLibraryUsageDescription": "Bellik we pursatlar üçin suratlary we wideolary saýlamaga rugsat.",
+        "NSCameraUsageDescription": "Surat we wideo düşürmek üçin kamera.",
+        "NSMicrophoneUsageDescription": "Ses ýazgylaryny we wideo sesini ýazmak üçin mikrofon.",
+        "NSLocationWhenInUseUsageDescription": "Häzirki ýeriňizi salgy hökmünde bellemek üçin."
+      }
+    },
+    "android": {
+      "package": "com.gulowresul.garasylyangun",
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#E8A317" },
+      "permissions": [
+        "READ_CONTACTS", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "RECORD_AUDIO", "CAMERA",
+        "POST_NOTIFICATIONS", "READ_MEDIA_IMAGES", "READ_MEDIA_VIDEO", "VIBRATE", "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "plugins": [
+      ["expo-notifications", { "icon": "./assets/notification-icon.png", "color": "#E8A317" }],
+      ["expo-contacts", { "contactsPermission": "Çakylyk sanawyny düzmek we jaň/SMS üçin kontaktlar." }],
+      ["expo-image-picker", { "photosPermission": "Suratlary saýlamak üçin.", "cameraPermission": "Surat/wideo düşürmek üçin.", "microphonePermission": "Wideo sesi üçin." }],
+      ["expo-location", { "locationWhenInUsePermission": "Salgyny awtomatik bellemek üçin." }],
+      ["expo-audio", { "microphonePermission": "Ses ýazgylary üçin mikrofon." }],
+      "expo-video",
+      "expo-font"
+    ]
+  }
+}
